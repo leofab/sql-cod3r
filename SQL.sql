@@ -63,3 +63,35 @@ INSERT INTO IF NOT EXISTS
 	personagens (id, nome, altura, destaque, nascimento)
 VALUES
 	(5, 'Leia', 1.65,	0, '3091-10-25'	)
+
+-- desafio 2 planetas	
+	
+INSERT INTO IF NOT EXISTS
+	planetas (id, nome, altura, destaque, nascimento)
+VALUES
+	(600, 'Abafar', 605857,	null, 1)
+	
+INSERT INTO IF NOT EXISTS
+	planetas (id, nome, altura, destaque, nascimento)
+VALUES
+	(200, 'Alderaan', 6250,	0, 1)
+	
+INSERT INTO IF NOT EXISTS
+	planetas (id, nome, altura, destaque, nascimento)
+VALUES
+	(300, 'Tatooine', 5247.5,	3, 1)
+	
+INSERT INTO IF NOT EXISTS
+	planetas (id, nome, altura, destaque, nascimento)
+VALUES
+	(400, 'Sullust', null,	3, 1)
+	
+INSERT INTO IF NOT EXISTS
+	planetas (id, nome, altura, destaque, nascimento)
+VALUES
+	(500, 'Saturno', 58232,	7, 0)
+	
+INSERT INTO IF NOT EXISTS
+	planetas (id, nome, altura, destaque, nascimento)
+VALUES
+	(600, 'Abafar', 605857,	null, 1)
