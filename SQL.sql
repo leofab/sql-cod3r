@@ -34,27 +34,32 @@ CREATE TABLE IF NOT EXISTS planetas(
 
 -- inserindo personagem
 
-INSERTO INTO IF NOT EXISTS
+INSERT INTO IF NOT EXISTS
 	personagens (id, nome, altura, destaque, nascimento)
 VALUES
 	(1, 'Luke Skywalker', 1.75,	true, '3091-10-25'	)
 	
-INSERTO INTO IF NOT EXISTS
+INSERT INTO IF NOT EXISTS
 	personagens (id, nome, altura, destaque, nascimento)
 VALUES
 	(2, 'Chewbacca', 2.05,	1, '3082-02-03'	)
 
-INSERTO INTO IF NOT EXISTS
+INSERT INTO IF NOT EXISTS
 	personagens (id, nome, altura, destaque, nascimento)
 VALUES
 	(3, 'Darth Vadder', 1.95,	true, '3069-11-22'	)
 	
-INSERTO INTO IF NOT EXISTS
+INSERT INTO IF NOT EXISTS
 	personagens (id, nome, altura, destaque, nascimento)
 VALUES
 	(4, 'Jabba', 1.65,	false, '3072-12-13'	)
 	
-INSERTO INTO IF NOT EXISTS
+INSERT INTO IF NOT EXISTS
 	personagens (id, nome, altura, destaque, nascimento)
 VALUES
-	(5, 'Snoke', 2.15,	0, '3042-01-03'	)
+	(5, 'Snoke', 2.15,	0, '3042-01-03'	)	
+	
+INSERT INTO IF NOT EXISTS
+	personagens (id, nome, altura, destaque, nascimento)
+VALUES
+	(5, 'Leia', 1.65,	0, '3091-10-25'	)
