@@ -14,3 +14,20 @@ CREATE TABLE IF NOT EXISTS personagem(
 	destaque BOOLEAN,
 	nascimento DATE
 );
+
+-- exercicio
+-- Tabela - planetas
+-- Colunas..
+-- id inteiro
+-- nome texto
+-- raio 8 dg e 2dc 99999999.99
+-- qtde_luas inteiro
+-- habitado 0 ou 1
+
+CREATE TABLE IF NOT EXISTS planetas(
+	id INT,
+	nome VARCHAR(120),
+	raio DECIMAL(8, 2),
+	qtde_luas INT,
+	habitado BOOLEAN
+)
